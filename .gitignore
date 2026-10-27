@@ -1,0 +1,55 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+.mono/
+data_*/
+mono_crash.*.json
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Builds
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.pck
+*.zip
+*.apk
+*.aab
+*.x86_64
+*.arm64
+
+# Backups
+*.backup
+*.old
+*.bak
+
+# Temporary
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local
+.env
+.env.local
+*.local
